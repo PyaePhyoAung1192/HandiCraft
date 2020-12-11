@@ -1,0 +1,34 @@
+@media (max-width: 561px){
+    body {
+        font-size: 5px;
+    }
+    .left-column{
+        border-left: none;
+
+        
+    }
+    .left-column > div{
+        padding-left: 0px;
+    }
+   .btn{
+       margin-left: 0;
+   }
+   .banner__sub-heading{
+    font-size: 1.5rem !important;
+    font-family: $font-main;
+    color: #ffffff !important;
+    text-align: left !important;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px !important;
+    }
+    .banner__heading{
+        font-size: 2.5rem !important;
+    }
+    .banner__textbox{
+        position: absolute;
+        top: 45%;
+        left: 35%;
+        transform: translate(-45%, -35%);
+    }
+}

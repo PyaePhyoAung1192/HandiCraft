@@ -1,0 +1,27 @@
+$primary-color: #8c4549;
+$font-main: 'PT Sans', sans-serif;
+$font-second: 'Roboto', sans-serif;
+ 
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    font-family: $font-second;
+}
+
+.btn{
+    text-align: center;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.parallax-container {
+    height: 70vh;
+  }
+      
+
+  .card {
+      height: 400px !important;
+  }
